@@ -14,7 +14,7 @@ const Quiz = () => {
   let Option3 = useRef(null);
   let Option4 = useRef(null);
 
-  let option_array = [Option1, Option2, Option3, Option4]; // ✅ fixed
+  let option_array = [Option1, Option2, Option3, Option4]; 
 
   const checkAns = (e, ans) => {
     if (!lock) {
@@ -95,7 +95,7 @@ const Quiz = () => {
       </div></>}
       {result?<>
       <h2>Your score is {score} out of {data.length}</h2>
-      <button onClick={reset}>Reset</button>
+      <button className="res" onClick={reset}>Reset</button>
       </>:<></>}
       
      
