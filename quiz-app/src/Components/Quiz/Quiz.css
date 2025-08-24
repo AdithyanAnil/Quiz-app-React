@@ -1,5 +1,5 @@
 .container{
-    width: 440px;
+    width: 540px;
     margin: auto;
     margin-top: 150px;
     background: white;
@@ -18,7 +18,7 @@ h1{
     height: 2px;
     border: none;
     background: #707070;
-    width: 400px;
+    width: 500px;
     margin-left: 20px;
     
 }
