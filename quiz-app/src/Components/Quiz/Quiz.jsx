@@ -6,7 +6,7 @@ const Quiz = () => {
     <div className="container">
         <h1>Quiz App</h1>
         <hr />
-        <h2>Which City is the capital of India</h2>
+        <h2>Which City is the capital of India?</h2>
         <ul>
             <li>Kolkata</li>
             <li>Mumbai</li>
